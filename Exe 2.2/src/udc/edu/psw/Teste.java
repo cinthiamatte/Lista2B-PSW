@@ -3,8 +3,12 @@ package udc.edu.psw;
 public class Teste {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		Retangulo ret = new Retangulo();
+		
+		ret.entrada();
+		ret.CalculaPerimetro();
+		System.out.printf(ret.toString());
 	}
 
 }
